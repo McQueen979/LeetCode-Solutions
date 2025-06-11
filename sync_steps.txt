@@ -1,0 +1,14 @@
+1、进入项目目录： cd Z:\@Code\LeetCode-Solutions
+2、创建第X题的文件夹：mkdir 0002-Add-Two-Numbers
+3、进入第2题文件夹：cd 0002-Add-Two-Numbers		//这个是文件夹名字
+4、创建解题文件：
+New-Item -ItemType File -Name Solution1.java  	# 暴力枚举解法
+New-Item -ItemType File -Name Solution2.java  	# 哈希表解法
+New-Item -ItemType File -Name README.md       # 题目描述和解题思路
+5、将更改提交到 GitHub
+# 回到仓库根目录	cd ..
+# 查看状态	git status		//这一步运行完，会显示本地 main 分支与远程仓库（origin 是默认远程仓库别名）的 main 分支完全同步，没有未推送的本地更改。
+# 添加所有新文件	git add .		//
+# 提交更改	git commit -m "Add Java solutions for Two Sum" //git commit -m "message" 命令中的引号内容是本次提交的说明信息（commit message），用于记录变更的目的和内容。也就是github上文件夹后面的灰色字体，用于显示Last commit message表示最近一次提交（commit）的说明信息。
+# 推送到远程仓库	git push origin main
+
