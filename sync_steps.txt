@@ -9,6 +9,6 @@ New-Item -ItemType File -Name README.md       # 题目描述和解题思路
 # 回到仓库根目录	cd ..
 # 查看状态	git status		//这一步运行完，会显示本地 main 分支与远程仓库（origin 是默认远程仓库别名）的 main 分支完全同步，没有未推送的本地更改。
 # 添加所有新文件	git add .		//
-# 提交更改	git commit -m " ****** " //git commit -m "message" 命令中的引号内容是本次提交的说明信息（commit message），用于记录变更的目的和内容。也就是github上文件夹后面的灰色字体，用于显示Last commit message表示最近一次提交（commit）的说明信息。
-# 推送到远程仓库	git push origin main	//启动加速器
+# 提交更改	git commit -m " ****** " //git commit -m "message" 命令中的引号内容是本次提交的说明信息（commit message），用于记录变更的目的和内容。也就是github上文件夹后面的灰色字体，用于显示Last commit message表示最近一次提交（commit）的说明信息。git commit步骤必不可少：git add只是将文件添加到暂存区，而git commit才将暂存区的内容永久保存到本地仓库。
+# 推送到远程仓库	git push origin main	//需要启动加速器
 
